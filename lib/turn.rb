@@ -33,6 +33,7 @@ end
 #input_to_index - converts user input to integer and subtracts 1
 def input_to_index(user_input)
   user_input.to_i - 1
+  index = user_input
 end
 #end of input_to_index
 
