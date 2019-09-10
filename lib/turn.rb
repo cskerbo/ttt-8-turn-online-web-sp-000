@@ -28,3 +28,16 @@ def position_taken?(board, index)
   end
   taken
 end
+# end of position_taken
+
+#input_to_index - converts user input to integer and subtracts 1
+def input_to_index(user_input)
+  user_input.to_i - 1
+end
+#end of input_to_index
+
+#move - performs players requested movement on board
+def move(board, index, current_player = "X")
+  board[index] = current_player
+end
+#end of move
