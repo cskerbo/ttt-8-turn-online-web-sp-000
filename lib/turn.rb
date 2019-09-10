@@ -14,6 +14,8 @@ def valid_move?(board, index)
   if position_taken?(board, index) == false
     board[index].between?("0", "8")
     move = true
+  else
+    move = false
   end
   move
 end
